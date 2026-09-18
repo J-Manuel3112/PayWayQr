@@ -1,0 +1,70 @@
+# ===========================
+# .NET / Visual Studio
+# ===========================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+x64/
+x86/
+build/
+bld/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Archivos generados por el compilador
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.tlog
+*.obj
+*.o
+*.lo
+*.out
+
+# Paquetes NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# ReSharper / Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Configuraciones locales
+*.config.user
+appsettings.*.json
+!appsettings.json
+
+# Credenciales / secretos
+*.env
+.env
+secrets.json
+appsettings.Production.json
